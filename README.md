@@ -5,7 +5,11 @@
 ## Build Setup
 
 ``` bash
+# clone the repository
+git clone git@github.com:mihaiconstantin/TescPerfWeb.git
+
 # setup a virtual environment 
+cd TescPerfWeb/
 virtualenv venv
 cd venv/Scripts/
 activate
