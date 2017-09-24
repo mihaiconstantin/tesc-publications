@@ -32,7 +32,7 @@ npm run build
 # for more details consult the flask documentation at 
 # http://flask.pocoo.org/docs/0.12/quickstart/
 cd..
-set FLAS_APP=app.py
+set FLASK_APP=app.py
 set FLASK_DEBUG=1
 flask run
 
