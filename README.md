@@ -14,6 +14,8 @@ activate
 cd ..
 cd ..
 pip install requirements.txt
+# or
+pip install --upgrade -r requirements.txt
 
 # install `node.js` dependencies
 cd client/
