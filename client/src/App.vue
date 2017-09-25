@@ -13,7 +13,7 @@
 		<hr>
 
 		<footer class="text-center">
-			<span><small class="text-muted">Copyright &copy; 2017 TESC - Tilburg University</small></span>
+			<span><small class="text-muted">Copyright &copy; 2017 Tilburg Experience Sample Center</small></span>
 		</footer>
 	</div>
 </template>
