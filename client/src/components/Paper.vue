@@ -11,7 +11,7 @@
 			<div class="col-md-3">
 				<strong>TESC authors:</strong>
 				<ul class="">
-					<li v-for="tescAuthor in paper.tesc_authors">{{ tescAuthor }}</li>
+					<li v-for="tescAuthor in paper.tesc_authors"><a v-bind:href="tescAuthor.link" target="_blank">{{ tescAuthor.name }}</a></li>
 				</ul>
 			</div>
 

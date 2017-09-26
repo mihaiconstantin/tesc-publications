@@ -144,7 +144,10 @@ class PaperDataWorker(Thread):
 				authors = ctx_body.find('div', class_='rendering_associatesauthorsclassifiedlistportal').find('ul', class_='persons').find_all('li')
 				for author in authors:
 					if author.find('a') is not None:
-						paper_data['tesc_authors'].append(author.find('a').text)
+						paper_data['tesc_authors'].append({
+								'name' : author.find('a').text,
+								'link' : author.find('a')['href']
+							})
 					else:
 						paper_data['external_authors'].append(author.text)
 			except:

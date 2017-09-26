@@ -17,7 +17,7 @@ activate
 # install `Python` dependencies
 cd ..
 cd ..
-pip install requirements.txt
+pip install -r requirements.txt
 # or
 pip install --upgrade -r requirements.txt
 

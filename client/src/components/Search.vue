@@ -75,9 +75,11 @@
 					type: 'POST',
 					success: function(response) {
 						console.log(`Response collected.`);
+						
+						console.log(JSON.parse(response));
 
 						that.results = JSON.parse(response);
-						that.status = `Found ${that.results.length} papers in ${((performance.now() - timepoint1) / 1000).toFixed(2)} seconds.`;
+						that.status = `found ${that.results.length} papers in ${((performance.now() - timepoint1) / 1000).toFixed(2)} seconds.`;
 					}
 				});
 			}
